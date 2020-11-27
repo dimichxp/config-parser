@@ -189,6 +189,7 @@ func getServerOptions() []ServerOption {
 		&ServerOptionValue{Name: "downinter"},
 		&ServerOptionValue{Name: "log-proto"},
 		&ServerOptionValue{Name: "maxconn"},
+		&ServerOptionValue{Name: "balanceconn"},
 		&ServerOptionValue{Name: "maxqueue"},
 		&ServerOptionValue{Name: "max-reuse"},
 		&ServerOptionValue{Name: "minconn"},
